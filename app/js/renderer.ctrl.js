@@ -102,7 +102,7 @@ require("./url.filter.js");
 {"text":"Laa da daa dee da daa dum","beatDuration":"264","beatIncrements":[
 3,0,0,3,4,0,4,0,0,3,4,0,4,0,0,0]},
 {"text":"Laa daa da daa daa de daa ooo","beatDuration":"264","beatIncrements":[
-3,0,4,0,0,3,4,0,4,0,3,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0]}]}
+3,0,4,0,0,3,4,0,4,0,3,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0]}]} 
     };
     // var queue = socket.queue;
     var user = queue.user;
