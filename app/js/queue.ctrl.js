@@ -13,7 +13,6 @@ require('../app.js');
       vm.queue = socket.queue;
     });
 
-
     vm.queueUp = function() {
       if (socket.queued) { return false; }
       socket.queued = true;
@@ -29,19 +28,20 @@ require('../app.js');
     var sweetAlert = require('./sweetalert');
     disconnectUser();
 
-    socket.on('onDeck', function () {
-      sweetAlert();
-    });
+    initializeQueue();
+    function initializeQueue () {
+      socket.onDeck(function () {
+        sweetAlert();
+      });
+    }
 
-    function chickenOut () {
+    vm.chickenOut = function() {
 
       socket.queued = false;
       console.log('chicken');
-      $http.delete( '/api/queue', {
-        headers: {'vm.user': 'vm.user.id'}
-      })
+      $http.delete( '/api/queue')
       .success(function (resp) {
-        $location.url('/menu');
+        $location.url('/kvox/menu');
       })
       .error(errorHandler);
     }
