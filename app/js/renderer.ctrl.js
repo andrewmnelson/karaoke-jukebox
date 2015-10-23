@@ -82,7 +82,7 @@ require("./url.filter.js");
 {"text":"I've heard them calling my name","beatDuration":"264","beatIncrements":[
 4,0,6,0,5,0,5,0,3,0,3,0,5,0,0,0,0,0,0,0,0,0,0,0]},
 {"text":"Is this the sweet sound","beatDuration":"264","beatIncrements":[
-2,0,5,0,0,4,6,0,6,0,0,0,0]},
+2,0,5,0,0,4,6,0,6,0,0]},
 {"text":"that called the young sailors?","beatDuration":"264","beatIncrements":[
 4,7,0,0,4,6,0,5,0,4,0,0]},
 {"text":"The voice might be one and the same","beatDuration":"264","beatIncrements":[
