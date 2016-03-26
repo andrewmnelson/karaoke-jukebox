@@ -2,5 +2,5 @@ node_modules/
 db/**/*
 mp3server/mp3
 build/**
+.node-version
 .DS_Store
-
